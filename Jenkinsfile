@@ -28,12 +28,4 @@ pipeline {
                                 trim: true
                             )
                         ])
-                        stage(version){
-                        sh 'git --version'
-                        }
-                    ])
-                }
-            }
-        }
-    }   
-}
+                                           ])
